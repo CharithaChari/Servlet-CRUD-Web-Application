@@ -1,5 +1,5 @@
 # Servlet-CRUD-Web-Application
-This Project uses Java, SQL, Html, Css, JDBC and Java Servlet for basic CRUD Operations
+This Project uses Servlets, JDBC , JSP, HTML , CSS and MySQL Data-Base Server for Basic CRUD Operations.
 Firstly, If any User wants to Run this Project, They should create DataBase name called 'btm' in Mysql and inside that DataBase they should 
 create Table name called 'CRUD'. Query is : CREATE TABLE CRUD 
    (EMAIL VARCHAR2(50) NOT NULL, 
