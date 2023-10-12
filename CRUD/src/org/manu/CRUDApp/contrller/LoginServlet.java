@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
 		String Password = req.getParameter("ps");
 		RequestDispatcher dispatcher = null;
 
-		if ((Password == "" && Email == "") == false) {
+		if ((Password.equals("")&& Email.equals("") == false) {
 			StudentDao studentDao = new StudentDao();
 			Student student = studentDao.LoginStudent(Email, Password);
 
